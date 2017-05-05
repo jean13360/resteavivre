@@ -1,0 +1,15 @@
+  Nombre de jour ouvré dans le mois : {{selectedValue}}
+  <md-slider
+        class="example-margin"
+        [disabled]="false"
+        [invert]="false"
+        [max]="31"
+        [min]="0"
+        [step]="1"
+        [thumb-label]="true"
+        [tick-interval]="'auto'"
+        [value]="value"
+        [vertical]="vertical"
+        style="width:100%"
+        (change)="change($event)">
+    </md-slider>

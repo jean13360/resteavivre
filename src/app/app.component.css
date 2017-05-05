@@ -1,0 +1,27 @@
+.greenbox
+{
+	padding: 20px;
+	width:40%;
+	height:50%;
+	min-height:500px; 
+	background: #68C50A;
+	border: 1px solid #bbbbbb;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.redbox
+{
+	padding: 20px;
+	width:40%;
+	height:50%;
+	min-height:500px; 
+	background: #C5680A;
+	border: 1px solid #bbbbbb;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
